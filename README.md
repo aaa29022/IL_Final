@@ -18,7 +18,17 @@ Run the following command to train the Mujoco Hopper environment by imitating an
 
 Run the original MGAIL
 ```python
+# Run the original MGAIL
 python3 main.py
+
+# Run with data reweighting
+python3 main.py -r
+
+# Run with 5 ensemble models
+python3 main.py -e 5
+
+# Run with data reweighting and 10 ensemble models
+python3 main.py -r -e 10
 ```
 
 Run with data reweighting
