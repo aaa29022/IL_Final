@@ -16,7 +16,6 @@ Extension of ICML 2017 paper "End-to-End Differentiable Adversarial Imitation Le
 ## Running
 Run the following command to train the Mujoco Hopper environment by imitating an expert trained with TRPO
 
-Run the original MGAIL
 ```python
 # Run the original MGAIL
 python3 main.py
@@ -28,20 +27,5 @@ python3 main.py -r
 python3 main.py -e 5
 
 # Run with data reweighting and 10 ensemble models
-python3 main.py -r -e 10
-```
-
-Run with data reweighting
-```python
-python3 main.py -r
-``` 
-
-Run with 5 ensemble models
-```python
-python3 main.py -e 5
-```
-
-Run with data reweighting and 10 ensemble models
-```python
 python3 main.py -r -e 10
 ```
